@@ -11,7 +11,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "pre-optimize:image": "cd src/scripts && node optimize"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
@@ -30,6 +31,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.9.0",
+    "sharp": "^0.24.0",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
