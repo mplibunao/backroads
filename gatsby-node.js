@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require("path")
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
@@ -23,8 +23,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: path.resolve("./src/templates/tour-templates.js"),
       context: {
         slug: node.slug,
-      }
+      },
     })
   })
-  console.log("result", result)
 }

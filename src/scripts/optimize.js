@@ -23,7 +23,7 @@ Promise.all(
       .resize({
         width: MAX_WIDTH,
         height: MAX_HEIGHT,
-        position: 'center',
+        position: "center",
       })
       .jpeg({ quality: QUALITY })
       .toFile(optimizedName)

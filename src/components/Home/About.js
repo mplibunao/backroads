@@ -24,7 +24,10 @@ const About = () => {
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
-            <Img fluid={aboutImage.childImageSharp.fluid} alt="awesome landscape" />
+            <Img
+              fluid={aboutImage.childImageSharp.fluid}
+              alt="awesome landscape"
+            />
           </div>
         </article>
         <article className={styles.aboutInfo}>

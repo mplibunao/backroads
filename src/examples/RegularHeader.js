@@ -18,7 +18,6 @@ export default () => {
     <StaticQuery
       query={getSiteData}
       render={({ site: { siteMetadata } }) => {
-
         return (
           <div>
             <h1>title: {siteMetadata.title}</h1>

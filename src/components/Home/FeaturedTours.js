@@ -17,7 +17,7 @@ const getTours = graphql`
           contentful_id
           days
           images {
-            fluid(maxHeight:200) {
+            fluid(maxHeight: 200) {
               ...GatsbyContentfulFluid_tracedSVG
             }
           }
