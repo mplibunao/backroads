@@ -15,6 +15,7 @@
     "pre-optimize:image": "cd src/scripts && node optimize"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^14.1.1",
     "babel-plugin-styled-components": "^1.10.7",
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.7",
