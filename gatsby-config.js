@@ -13,8 +13,12 @@ module.exports = {
     description:
       "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
     author: "@mplibunao",
+    twitterUsername: "@mpradorbrandy",
+    image: "/defaultBcg.jpeg",
+    siteUrl: "https://happy-hopper-ae08fe.netlify.app",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
