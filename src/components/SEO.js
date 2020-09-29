@@ -22,7 +22,7 @@ const SEO = ({ title, description }) => {
   const {
     siteDescription,
     siteTitle,
-    steUrl,
+    siteUrl,
     image,
     twitterUsername,
   } = site.siteMetadata
