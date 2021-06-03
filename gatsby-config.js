@@ -15,7 +15,7 @@ module.exports = {
     author: "@mplibunao",
     twitterUsername: "@mpradorbrandy",
     image: "/defaultBcg.jpeg",
-    siteUrl: "https://happy-hopper-ae08fe.netlify.app",
+    siteUrl: "https://backroads-travel-site.netlify.app",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://happy-hopper-ae08fe.netlify.app",
-        sitemap: "https://happy-hopper-ae08fe.netlify.app/sitemap.xml",
+        host: "https://backroads-travel-site.netlify.app",
+        sitemap: "https://backroads-travel-site.netlify.app/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
